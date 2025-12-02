@@ -1,0 +1,24 @@
+# robots.txt for PickWebsiteHosting.com
+# https://pickwebsitehosting.com/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://pickwebsitehosting.com/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1
+
+# Block common bot traps
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /cache/
+
+# Allow all important directories
+Allow: /reviews/
+Allow: /blog/
+Allow: /css/
+Allow: /images/
+Allow: /go/
+
